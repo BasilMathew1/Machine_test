@@ -1,0 +1,16 @@
+{
+    "users": [
+      {
+        "email": "olivier@mail.com",
+        "password": "$2a$10$JhMj7NX1jFqgAubuJ.VqDOL.BeIXLDDlGrW.b5aF1WhzVGbjhCoDC",
+        "id": 1,
+        "role_id":1
+      },
+      {
+        "email": "basil@mail.com",
+        "password": "$2a$10$XIE/TnFJhYwsTtNdGiE/kuDROLG2Sgv6lI5obYXYtPKHGvurbkzsK",
+        "id": 2,
+        "role_id":3
+      }
+    ]
+  }
