@@ -47,7 +47,7 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-lg navbar-mainbg">
     
       <NavLink className="navbar-brand navbar-logo" to="/" exact>
-      Open Digital Library 
+      Travel Management 
       </NavLink>
     
     
