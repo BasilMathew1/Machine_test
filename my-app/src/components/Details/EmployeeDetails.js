@@ -68,10 +68,10 @@ function EmployeeDetails(){
                 </tbody>
        <tr>
         <td>
-        <Button type="button" onClick={()=>navigate(`/employeeedit/${books.id}`)}>Edit</Button>
+        <Button type="button" onClick={()=>navigate(`/employeeedit/${employee.emp_id}`)}>Edit</Button>
         </td>
         <td>
-        <Button type='button' variant='primary' onClick={() =>navigate(`/deleteemployee/${books.id}`)}>Delete</Button>
+        <Button type='button' variant='primary' onClick={() =>navigate(`/deleteemployee/${employee.emp_id}`)}>Delete</Button>
         </td>
         </tr>
         {/* <tr>

@@ -2,14 +2,12 @@
 import React from 'react';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
-import Home from './Home';
+import Home from './components/Home';
 import About from './components/About';
-//import VisitLibrary from './Visit_Library.js';
+
 import Navbar from './components/Navbar';
-//import BookDetails from './BookDetails';
-//import Deletebook from './deletebook';
-//import BookEdit from './BookEdit';
-//import AddBook from './addbook';
+import Login from './components/Login'
+
 import AddTravel from './components/Registration/TravelRegistration';
 import AddEmployee from './components/Registration/EmployeeRegistration';
 import TravelDetails from './components/Details/TravelDetails';
@@ -26,14 +24,13 @@ function App() {
       <Routes>  
          <Route path ='/' element ={<Home/>}/> 
         <Route path ='/about' element ={<About/>}/>
-        {/* <Route path ='/visitlibrary' element ={<VisitLibrary/>}/> */}
+        
          <Route path ='/employeedetails/:id' element ={<EmployeeDetails/>}/>
          <Route path ='/traveldetails/:id' element ={<TravelDetails/>}/>
-        {/* <Route path ='/deletebook/:id' element ={<Deletebook/>}/> */}
-        {/* <Route path ='/bookedit/:id' element={<BookEdit/>}/> */}
-        {/* <Route path ='/addbook' element={<AddBook/>}/> */}
+       
         <Route path ='/travelregistration' element ={<AddTravel/>}/>
         <Route path ='/employee' element ={<AddEmployee/>}/>
+        <Route path ='/login' element ={<Login/>}/>
       </Routes>  
 
       <br/><br/><br/><hr/>

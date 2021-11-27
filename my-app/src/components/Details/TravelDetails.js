@@ -22,7 +22,7 @@ function TravelDetails(){
         .then(response => {
             console.log('promise fulfilled')
             console.log(response)
-            setBooks(response.data)
+            setTravel(response.data)
         })
     })
 
@@ -85,10 +85,10 @@ function TravelDetails(){
                 </tbody>
        <tr>
         <td>
-        <Button type="button" onClick={()=>navigate(`/traveledit/${books.id}`)}>Edit</Button>
+        <Button type="button" onClick={()=>navigate(`/traveledit/${travel.request_id}`)}>Edit</Button>
         </td>
         <td>
-        <Button type='button' variant='primary' onClick={() =>navigate(`/deletetravel/${books.id}`)}>Delete</Button>
+        <Button type='button' variant='primary' onClick={() =>navigate(`/deletetravel/${travel.request_id}`)}>Delete</Button>
         </td>
         </tr>
         <tr>

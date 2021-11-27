@@ -86,12 +86,13 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/visitlibrary" exact>
+              <NavLink className="nav-link" to="/login" exact>
                 <i 
-                className="far fa-clone">
-                </i>Visit Library
-              </NavLink>
+                className="far fa-address-book">
+                </i>Login
+              </NavLink> 
             </li>
+
 
             <li className="nav-item">
               <NavLink className="nav-link" to="/travelregistration" exact>
